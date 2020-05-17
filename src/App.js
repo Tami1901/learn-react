@@ -2,12 +2,12 @@ import React from "react";
 import "./App.css";
 import ClassCounter from "./ComponentsHooks/ClassCounter";
 import HookCounterTwo from "./ComponentsHooks/HookCounterTwo";
-import HookCounterFour from "./ComponentsHooks/HookCounterFour";
+import IntervalHookCounter from "./ComponentsHooks/IntervalHookCounter";
 
 function App() {
   return (
     <div className="App">
-      <HookCounterFour />
+      <IntervalHookCounter />
     </div>
   );
 }
