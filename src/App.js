@@ -1,6 +1,6 @@
 import React, { useReducer } from "react";
 import "./App.css";
-import Counter from "./ComponentsMemo/Counter";
+import HookTimer from "./componentsUseRef/HookTimer";
 
 // export const UserContext = React.createContext();
 // export const ChannelContext = React.createContext();
@@ -24,7 +24,7 @@ import Counter from "./ComponentsMemo/Counter";
 function App() {
   // const [count, dispatch] = useReducer(reducer, initialState);
   return (
-    <Counter />
+    <HookTimer />
     // <CountContext.Provider
     //   value={{ countState: count, countDispatch: dispatch }}
     // >
