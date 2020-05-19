@@ -1,6 +1,6 @@
 import React, { useReducer } from "react";
 import "./App.css";
-import DataFetchingTwo from "./ComponentsHooks/DataFetchingTwo";
+import ParentComponent from "./ComponentsCallback/ParentComponent";
 
 // export const UserContext = React.createContext();
 // export const ChannelContext = React.createContext();
@@ -24,7 +24,7 @@ import DataFetchingTwo from "./ComponentsHooks/DataFetchingTwo";
 function App() {
   // const [count, dispatch] = useReducer(reducer, initialState);
   return (
-    <DataFetchingTwo />
+    <ParentComponent />
     // <CountContext.Provider
     //   value={{ countState: count, countDispatch: dispatch }}
     // >
